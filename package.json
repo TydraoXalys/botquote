@@ -1,0 +1,21 @@
+{
+  "name": "botquote",
+  "version": "1.0.0",
+  "description": "A bot for Discord that enable you to make and embed quotes from your server's members.",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "build": "npm run clean && tsc",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "author": "TydraoXalys",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
